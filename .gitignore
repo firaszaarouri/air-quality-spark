@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Spark
+kmeans_model/
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Data files (large — not committed)
+data/*.json
+data/*.csv
+data/*.parquet
+!data/.gitkeep
+
+# Generated outputs (not committed — shown via assets/ instead)
+output/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
