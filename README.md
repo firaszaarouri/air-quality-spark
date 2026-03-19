@@ -89,10 +89,10 @@ Click to open the interactive maps (rendered via htmlpreview):
 
 | Map | Description |
 |-----|-------------|
-| [🌍 Country AQI Map](https://htmlpreview.github.io/?https://github.com/firaszaarouri/air-quality-spark/blob/main/assets/map_country_aqi.html) | Choropleth — average AQI by country today |
-| [📍 Cluster Improvement Map](https://htmlpreview.github.io/?https://github.com/firaszaarouri/air-quality-spark/blob/main/assets/map_cluster_improvement.html) | Top 50 clusters coloured by AQI improvement |
-| [🔵 Cluster Zones Map](https://htmlpreview.github.io/?https://github.com/firaszaarouri/air-quality-spark/blob/main/assets/map_cluster_zones.html) | Geographic distribution of all 100 K-Means clusters |
-| [📊 Streak Popup Map](https://htmlpreview.github.io/?https://github.com/firaszaarouri/air-quality-spark/blob/main/assets/map_streak_popups.html) | Click any cluster to see its streak histogram |
+| [🌍 Country AQI Map](https://firaszaarouri.github.io/air-quality-spark/assets/map_country_aqi.html) | Choropleth — average AQI by country today |
+| [📍 Cluster Improvement Map](https://firaszaarouri.github.io/air-quality-spark/assets/map_cluster_improvement.html) | Top 50 clusters coloured by AQI improvement |
+| [🔵 Cluster Zones Map](https://firaszaarouri.github.io/air-quality-spark/assets/map_cluster_zones.html) | Geographic distribution of all 100 K-Means clusters |
+| [📊 Streak Popup Map](https://firaszaarouri.github.io/air-quality-spark/assets/map_streak_popups.html) | Click any cluster to see its streak histogram |
 
 > **Tip:** The Streak Popup Map is the most interactive — click each marker to see a Vega-Lite histogram of that cluster's good air quality streak distribution.
 
