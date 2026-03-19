@@ -83,6 +83,22 @@ Top improving clusters are located in South/Southeast Asia and West Africa — c
 
 ---
 
+## 🗺️ Interactive Maps
+
+Click to open the interactive maps (rendered via htmlpreview):
+
+| Map | Description |
+|-----|-------------|
+| [🌍 Country AQI Map](https://htmlpreview.github.io/?https://github.com/firaszaarouri/air-quality-spark/blob/main/assets/map_country_aqi.html) | Choropleth — average AQI by country today |
+| [📍 Cluster Improvement Map](https://htmlpreview.github.io/?https://github.com/firaszaarouri/air-quality-spark/blob/main/assets/map_cluster_improvement.html) | Top 50 clusters coloured by AQI improvement |
+| [🔵 Cluster Zones Map](https://htmlpreview.github.io/?https://github.com/firaszaarouri/air-quality-spark/blob/main/assets/map_cluster_zones.html) | Geographic distribution of all 100 K-Means clusters |
+| [📊 Streak Popup Map](https://htmlpreview.github.io/?https://github.com/firaszaarouri/air-quality-spark/blob/main/assets/map_streak_popups.html) | Click any cluster to see its streak histogram |
+
+> **Tip:** The Streak Popup Map is the most interactive — click each marker to see a Vega-Lite histogram of that cluster's good air quality streak distribution.
+
+
+---
+
 ## Architecture
 
 ```
@@ -309,7 +325,7 @@ The streak algorithm uses only Spark SQL Window functions. Python UDFs bypass th
 
 ## Academic Context
 
-This project was developed as part of the **Big Data & Machine Learning** module at **Cranfield University** (MSc Data Analytics), in collaboration with Anthony Pitra and Cibhi Boopathy.
+This project was developed as part of the **Big Data & Machine Learning** module at **Cranfield University** (MSc Data Analytics).
 
 Technologies: Apache Spark 4.1, PySpark, Spark SQL, MLlib K-Means, PySpark Window functions, Folium, Altair, Branca.
 
